@@ -13,7 +13,7 @@ let deploySuperToken = require("@superfluid-finance/ethereum-contracts/scripts/d
 
 const DividendRightsToken = artifacts.require("DividendRightsToken");
 
-import { contracts, DividendRightsToken__factory  } from "../typechain-types";
+import { contracts, DividendRightsToken__factory  } from "../typechain";
 
 // Instances
 let sf: InstanceType<typeof Framework>;;
