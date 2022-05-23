@@ -6,7 +6,9 @@ let daiABI = require("./abis/fDAIABI");
 
 import { SuperToken } from "@superfluid-finance/sdk-core";
 
+// sdk-core
 let { Framework } = require("@superfluid-finance/sdk-core");
+// js-sdk
 let SuperfluidSDK = require("@superfluid-finance/js-sdk");
 
 let deployFramework = require("@superfluid-finance/ethereum-contracts/scripts/deploy-framework");
